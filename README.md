@@ -10,3 +10,5 @@ features:
 - responsive amount of columns, based on port size
 - image full screen slideshow
 - automatic inclusion of tweets
+
+a (frozen) example can be found @ http://old.wimsijbers.be
