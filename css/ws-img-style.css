@@ -1,0 +1,108 @@
+#ws_img_overlay{
+	width:100%;
+	height:100%;
+	float:left;
+	top:0px;
+	left:0px;
+	position:absolute;
+}
+
+#ws_img_bg{
+		width:100%;
+		height:100%;
+		float:left;
+		top:0px;
+		left:0px;
+		position:absolute;
+}
+
+#ws_img_photo{
+	/* z-Index:3; */
+}
+
+#ws_img_wrapper{
+	position:absolute;
+}
+
+#ws_img_date{
+	/* z-Index:3; */
+	width:auto;
+	right:50px;
+	position:fixed;
+}
+
+a.ws_img_navprev{
+	/* z-Index:5; */
+	width:100px;
+	float:left;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	/* fucking internet explorer */
+	background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+}
+a.ws_img_navnext{
+	/* z-Index:5; */
+	width:100px;
+	float:right;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+}
+
+div.ws_img_navprev{
+	/* z-Index:5; */
+	float:left;
+	position:absolute;
+	left:0px;
+	bottom:30px;
+	background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+}
+div.ws_img_navnext{
+	/* z-Index:5; */
+	float:right;
+	position:absolute;
+	right:0px;
+	bottom:30px;
+	background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+}
+a.ws_img_navprev_fs{
+	/* z-Index:10; */
+	width:25%;
+	float:left;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+a.ws_img_navnext_fs{
+	/* z-Index:10; */
+	width:25%;
+	float:right;
+	height:100%;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+div.ws_img_navprev_fs{
+	/* z-Index:100; */
+	float:left;
+	height:40px;
+	width:100px;
+	position:absolute;
+	left:0px;
+	top:100px;
+	text-align:right;
+}
+div.ws_img_navnext_fs{
+	/* z-Index:100; */
+	float:right;
+	height:40px;
+	width:100px;
+	position:absolute;
+	right:0px;
+	top:100px;
+	text-align:left;
+}

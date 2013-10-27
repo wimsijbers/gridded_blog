@@ -1,0 +1,44 @@
+.margin20padding20{
+	margin:20px;
+	padding:20px;
+} 
+
+tr{
+	border-top:1px solid;
+}
+
+td{
+	padding: 0 10px;
+}
+
+header{
+	width:auto !important;
+}
+
+header a{
+	display:inline;
+}
+
+div#privatepage{
+	margin: 0px;
+	padding:0px;
+} 
+
+#creation{
+	float:left;
+}
+
+#manager{
+	float:left;
+	display:inline-block;
+}
+
+label{
+	display:inline-block;
+	min-width:75px;
+	margin:0px;
+}
+
+textarea{
+	width:700px;
+}

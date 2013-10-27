@@ -1,0 +1,22 @@
+<?php
+if(login_check($mysqli) == true) {
+?>
+<header class="color-bg-dark color-vlight">
+	<h1><a href="/index.php" class="color-flash1">site name</a></h1>
+	<div id="subtitle">
+	<h2>
+			<ul>
+				<li><a class="color-flash1" href="./createPost.php">Post</a></li>
+				<li>|</li>
+				<li><a class="color-flash1" href="./Management.php">Management</a></li>
+				<li>|</li>
+				<li><a class="color-flash1" href="./Files.php">Images</a></li>
+				<li>|</li>
+				<li><a class="color-flash1" href="./php/process_logout.php">Logout</a></li>				
+			</ul>
+	</h2>
+	</div>
+</header>
+<?php 
+	} 
+?>
